@@ -1,0 +1,28 @@
+body{
+    background-color: #dedede51;
+    font-family: system-ui, sans-serif;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.content
+
+.content.weather{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+.wi{
+    font-size: 3rem;
+    color: rgb(0, 136, 255);
+}
+.flag{
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.178);
+}
