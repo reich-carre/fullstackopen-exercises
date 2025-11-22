@@ -1,10 +1,11 @@
 const express = require('express');
 const cors = require ('cors')
 const app = express()
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3001
 
 app.use(cors())
 app.use(express.json())
+app.use(express.static('dist'))
 
 const unknownEndpoint = (request, response) => {
   response.status(404).send({ error: 'unknown endpoint' })
